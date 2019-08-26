@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.o  -o LeetCode 
+/usr/bin/c++  -g   CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.o  -o LeetCode 

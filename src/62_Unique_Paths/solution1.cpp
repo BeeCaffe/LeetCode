@@ -5,6 +5,12 @@
 #include <vector>
 #include <iostream>
 using namespace std;
+/**
+ * 1.递归暴力解法
+ *      每次走到一个位置继续向下和向右走，直到走到终点为止，并记录下到达终点的方法数，但是这种方法时间消耗太大，无法AC
+ *      时间复杂度为O(2^n),非常糟糕的时间复杂度，空间复杂度为O(1).同时我用栈来实现了递归算法的非递归形式，时间复杂度
+ *      依旧为O(2^n)，空间复杂度为O(n)。
+ */
 class Solution {
 public:
     static int uniquePaths(int m, int n) {
