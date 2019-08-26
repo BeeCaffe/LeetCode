@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LeetCode.dir/main.cpp.o"
-  "CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.o"
-  "CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.o"
+  "CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.o"
   "LeetCode.pdb"
   "LeetCode"
 )

@@ -4,9 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/caffe/CLionProjects/LeetCode/main.cpp" "/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/main.cpp.o"
-  "/home/caffe/CLionProjects/LeetCode/src/33_Search_in_Rotated_Sorted_Array/solution.cpp" "/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.o"
-  "/home/caffe/CLionProjects/LeetCode/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp" "/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.o"
+  "/home/caffe/CLionProjects/LeetCode/src/62_Unique_Paths/solution1.cpp" "/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

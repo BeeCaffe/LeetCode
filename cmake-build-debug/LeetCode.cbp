@@ -5,7 +5,7 @@
 		<Option title="LeetCode"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\53._Maximum_Subarray\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/caffe/CLionProjects/LeetCode/cmake-build-debug"/>
@@ -84,17 +84,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/caffe/CLionProjects/LeetCode/main.cpp">
-			<Option target="LeetCode"/>
-		</Unit>
-		<Unit filename="/home/caffe/CLionProjects/LeetCode/src/33_Search_in_Rotated_Sorted_Array/solution.cpp">
-			<Option target="LeetCode"/>
-		</Unit>
-		<Unit filename="/home/caffe/CLionProjects/LeetCode/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp">
+		<Unit filename="/home/caffe/CLionProjects/LeetCode/src/62_Unique_Paths/solution1.cpp">
 			<Option target="LeetCode"/>
 		</Unit>
 		<Unit filename="/home/caffe/CLionProjects/LeetCode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/caffe/CLionProjects/LeetCode/src/53._Maximum_Subarray/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\53._Maximum_Subarray\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

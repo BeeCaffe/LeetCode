@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/caffe/CLionProjects/LeetCode/cmake-build-debug
 CMakeFiles/LeetCode.dir/all:
 	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/depend
 	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target LeetCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target LeetCode"
 .PHONY : CMakeFiles/LeetCode.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/LeetCode.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LeetCode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LeetCode.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/LeetCode.dir/rule
@@ -100,6 +100,24 @@ CMakeFiles/LeetCode.dir/clean:
 clean: CMakeFiles/LeetCode.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/53._Maximum_Subarray
+
+# Convenience name for "all" pass in the directory.
+src/53._Maximum_Subarray/all:
+
+.PHONY : src/53._Maximum_Subarray/all
+
+# Convenience name for "clean" pass in the directory.
+src/53._Maximum_Subarray/clean:
+
+.PHONY : src/53._Maximum_Subarray/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/53._Maximum_Subarray/preinstall:
+
+.PHONY : src/53._Maximum_Subarray/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

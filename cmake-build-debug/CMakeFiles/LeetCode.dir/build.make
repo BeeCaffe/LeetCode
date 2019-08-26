@@ -57,60 +57,30 @@ include CMakeFiles/LeetCode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LeetCode.dir/flags.make
 
-CMakeFiles/LeetCode.dir/main.cpp.o: CMakeFiles/LeetCode.dir/flags.make
-CMakeFiles/LeetCode.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/main.cpp.o -c /home/caffe/CLionProjects/LeetCode/main.cpp
+CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.o: CMakeFiles/LeetCode.dir/flags.make
+CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.o: ../src/62_Unique_Paths/solution1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.o -c /home/caffe/CLionProjects/LeetCode/src/62_Unique_Paths/solution1.cpp
 
-CMakeFiles/LeetCode.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caffe/CLionProjects/LeetCode/main.cpp > CMakeFiles/LeetCode.dir/main.cpp.i
+CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caffe/CLionProjects/LeetCode/src/62_Unique_Paths/solution1.cpp > CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.i
 
-CMakeFiles/LeetCode.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caffe/CLionProjects/LeetCode/main.cpp -o CMakeFiles/LeetCode.dir/main.cpp.s
-
-CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.o: CMakeFiles/LeetCode.dir/flags.make
-CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.o: ../src/33_Search_in_Rotated_Sorted_Array/solution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.o -c /home/caffe/CLionProjects/LeetCode/src/33_Search_in_Rotated_Sorted_Array/solution.cpp
-
-CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caffe/CLionProjects/LeetCode/src/33_Search_in_Rotated_Sorted_Array/solution.cpp > CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.i
-
-CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caffe/CLionProjects/LeetCode/src/33_Search_in_Rotated_Sorted_Array/solution.cpp -o CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.s
-
-CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.o: CMakeFiles/LeetCode.dir/flags.make
-CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.o: ../src/33_Search_in_Rotated_Sorted_Array/solution2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.o -c /home/caffe/CLionProjects/LeetCode/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp
-
-CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caffe/CLionProjects/LeetCode/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp > CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.i
-
-CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caffe/CLionProjects/LeetCode/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp -o CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.s
+CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caffe/CLionProjects/LeetCode/src/62_Unique_Paths/solution1.cpp -o CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.s
 
 # Object files for target LeetCode
 LeetCode_OBJECTS = \
-"CMakeFiles/LeetCode.dir/main.cpp.o" \
-"CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.o" \
-"CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.o"
+"CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.o"
 
 # External object files for target LeetCode
 LeetCode_EXTERNAL_OBJECTS =
 
-LeetCode: CMakeFiles/LeetCode.dir/main.cpp.o
-LeetCode: CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution.cpp.o
-LeetCode: CMakeFiles/LeetCode.dir/src/33_Search_in_Rotated_Sorted_Array/solution2.cpp.o
+LeetCode: CMakeFiles/LeetCode.dir/src/62_Unique_Paths/solution1.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/build.make
 LeetCode: CMakeFiles/LeetCode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LeetCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LeetCode"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LeetCode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
