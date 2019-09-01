@@ -57,27 +57,27 @@ include CMakeFiles/LeetCode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LeetCode.dir/flags.make
 
-CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.o: CMakeFiles/LeetCode.dir/flags.make
-CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.o: ../src/68_Sqrt/solution1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.o -c /home/caffe/CLionProjects/LeetCode/src/68_Sqrt/solution1.cpp
+CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.o: CMakeFiles/LeetCode.dir/flags.make
+CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.o: ../src/80_Remove_Duplicates_from_Sorted_Array_II.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.o -c /home/caffe/CLionProjects/LeetCode/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp
 
-CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caffe/CLionProjects/LeetCode/src/68_Sqrt/solution1.cpp > CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.i
+CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caffe/CLionProjects/LeetCode/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp > CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.i
 
-CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caffe/CLionProjects/LeetCode/src/68_Sqrt/solution1.cpp -o CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.s
+CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caffe/CLionProjects/LeetCode/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp -o CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.s
 
 # Object files for target LeetCode
 LeetCode_OBJECTS = \
-"CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.o"
+"CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.o"
 
 # External object files for target LeetCode
 LeetCode_EXTERNAL_OBJECTS =
 
-LeetCode: CMakeFiles/LeetCode.dir/src/68_Sqrt/solution1.cpp.o
+LeetCode: CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/build.make
 LeetCode: CMakeFiles/LeetCode.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LeetCode"
