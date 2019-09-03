@@ -123,32 +123,32 @@ LeetCode/fast:
 	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-src/80_Remove_Duplicates_from_Sorted_Array_II.o: src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.o
+src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.o: src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.o
 
-.PHONY : src/80_Remove_Duplicates_from_Sorted_Array_II.o
+.PHONY : src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.o
 
 # target to build an object file
-src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.o:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.o
-.PHONY : src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.o
+src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.o:
+	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.o
+.PHONY : src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.o
 
-src/80_Remove_Duplicates_from_Sorted_Array_II.i: src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.i
+src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.i: src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.i
 
-.PHONY : src/80_Remove_Duplicates_from_Sorted_Array_II.i
+.PHONY : src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.i
 
 # target to preprocess a source file
-src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.i:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.i
-.PHONY : src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.i
+src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.i:
+	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.i
+.PHONY : src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.i
 
-src/80_Remove_Duplicates_from_Sorted_Array_II.s: src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.s
+src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.s: src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.s
 
-.PHONY : src/80_Remove_Duplicates_from_Sorted_Array_II.s
+.PHONY : src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.s
 
 # target to generate assembly for a file
-src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.s:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.s
-.PHONY : src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.s
+src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.s:
+	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.s
+.PHONY : src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
 	@echo "... edit_cache"
-	@echo "... src/80_Remove_Duplicates_from_Sorted_Array_II.o"
-	@echo "... src/80_Remove_Duplicates_from_Sorted_Array_II.i"
-	@echo "... src/80_Remove_Duplicates_from_Sorted_Array_II.s"
+	@echo "... src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.o"
+	@echo "... src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.i"
+	@echo "... src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.s"
 .PHONY : help
 
 

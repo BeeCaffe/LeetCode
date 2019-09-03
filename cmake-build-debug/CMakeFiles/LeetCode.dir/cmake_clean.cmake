@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II.cpp.o"
+  "CMakeFiles/LeetCode.dir/src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp.o"
   "LeetCode.pdb"
   "LeetCode"
 )
