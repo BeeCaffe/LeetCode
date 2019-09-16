@@ -5,7 +5,7 @@
 		<Option title="LeetCode"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\53._Maximum_Subarray\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\0-100\;CMake Files\0-100\53._Maximum_Subarray\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/caffe/CLionProjects/LeetCode/cmake-build-debug"/>
@@ -84,14 +84,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/caffe/CLionProjects/LeetCode/src/80_Remove_Duplicates_from_Sorted_Array_II/solution1.cpp">
+		<Unit filename="/home/caffe/CLionProjects/LeetCode/0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp">
 			<Option target="LeetCode"/>
 		</Unit>
 		<Unit filename="/home/caffe/CLionProjects/LeetCode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/caffe/CLionProjects/LeetCode/src/53._Maximum_Subarray/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\src\53._Maximum_Subarray\"/>
+		<Unit filename="/home/caffe/CLionProjects/LeetCode/0-100/53._Maximum_Subarray/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\0-100\53._Maximum_Subarray\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

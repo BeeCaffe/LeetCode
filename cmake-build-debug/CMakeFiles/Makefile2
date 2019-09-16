@@ -102,22 +102,22 @@ clean: CMakeFiles/LeetCode.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory src/53._Maximum_Subarray
+# Directory level rules for directory 0-100/53._Maximum_Subarray
 
 # Convenience name for "all" pass in the directory.
-src/53._Maximum_Subarray/all:
+0-100/53._Maximum_Subarray/all:
 
-.PHONY : src/53._Maximum_Subarray/all
+.PHONY : 0-100/53._Maximum_Subarray/all
 
 # Convenience name for "clean" pass in the directory.
-src/53._Maximum_Subarray/clean:
+0-100/53._Maximum_Subarray/clean:
 
-.PHONY : src/53._Maximum_Subarray/clean
+.PHONY : 0-100/53._Maximum_Subarray/clean
 
 # Convenience name for "preinstall" pass in the directory.
-src/53._Maximum_Subarray/preinstall:
+0-100/53._Maximum_Subarray/preinstall:
 
-.PHONY : src/53._Maximum_Subarray/preinstall
+.PHONY : 0-100/53._Maximum_Subarray/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

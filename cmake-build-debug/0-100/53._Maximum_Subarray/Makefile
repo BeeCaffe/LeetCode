@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles /home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/caffe/CLionProjects/LeetCode/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles /home/caffe/CLionProjects/LeetCode/cmake-build-debug/0-100/53._Maximum_Subarray/CMakeFiles/progress.marks
+	cd /home/caffe/CLionProjects/LeetCode/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 0-100/53._Maximum_Subarray/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/caffe/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/caffe/CLionProjects/LeetCode/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 0-100/53._Maximum_Subarray/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,58 +97,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/caffe/CLionProjects/LeetCode/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 0-100/53._Maximum_Subarray/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/caffe/CLionProjects/LeetCode/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 0-100/53._Maximum_Subarray/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/caffe/CLionProjects/LeetCode/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named LeetCode
-
-# Build rule for target.
-LeetCode: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LeetCode
-.PHONY : LeetCode
-
-# fast build rule for target.
-LeetCode/fast:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
-.PHONY : LeetCode/fast
-
-0-100/94_Binary_Tree_Inorder_Traversal/solution1.o: 0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.o
-
-.PHONY : 0-100/94_Binary_Tree_Inorder_Traversal/solution1.o
-
-# target to build an object file
-0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.o:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.o
-.PHONY : 0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.o
-
-0-100/94_Binary_Tree_Inorder_Traversal/solution1.i: 0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.i
-
-.PHONY : 0-100/94_Binary_Tree_Inorder_Traversal/solution1.i
-
-# target to preprocess a source file
-0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.i:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.i
-.PHONY : 0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.i
-
-0-100/94_Binary_Tree_Inorder_Traversal/solution1.s: 0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.s
-
-.PHONY : 0-100/94_Binary_Tree_Inorder_Traversal/solution1.s
-
-# target to generate assembly for a file
-0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.s:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.s
-.PHONY : 0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.s
 
 # Help Target
 help:
@@ -157,11 +117,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... LeetCode"
 	@echo "... edit_cache"
-	@echo "... 0-100/94_Binary_Tree_Inorder_Traversal/solution1.o"
-	@echo "... 0-100/94_Binary_Tree_Inorder_Traversal/solution1.i"
-	@echo "... 0-100/94_Binary_Tree_Inorder_Traversal/solution1.s"
 .PHONY : help
 
 
@@ -173,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/caffe/CLionProjects/LeetCode/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
