@@ -7,30 +7,31 @@
 using namespace std;
 class Solution {
 public:
-        static int minSubArrayLen(int s, vector<int>& nums) {
-            if(nums.size()==0) return 0;
-            if(nums.size()==1) return 1;
-            int minum=INT_MAX;
-            help(nums,s,0,nums.size()-1,0,minum);
-            return minum;
+    static int findUnsortedSubarray(vector<int>& nums) {
+        int pst=0,pend=nums.size();
+        while(pst<pend){
+            while(pst<pend && ismin(nums,nums[pst],pst+1,pend)) ++pst;
+            while(pst<pend && ismax(nums,nums[pend-1],pst,pend-1)) --pend;
         }
-        static void help(vector<int> &nums,int target,int beg,int end,int deep,int &minum){
-            deep++;
-            if(beg>end || target==0) return;
-            for(int i=beg;i<=end;++i){
-                if(target<=nums[i]){
-                    minum=min(minum,deep);
-                    return;
-                }else{
-                    help(nums,target-nums[i],i+1,end,deep,minum);
-                }
-            }
+        return pend-pst;
+    }
+
+    static bool ismin(vector<int> &nums,int key,int left,int right){
+        for(int i=left;i<right;++i){
+            if(key>nums[i]) return false;
         }
-    };
+        return true;
+    }
+    static bool ismax(vector<int> &nums,int key,int left,int right){
+        for(int i=right-1;i>=left;--i){
+            if(key<nums[i]) return false;
+        }
+        return true;
+    }
+};
 
 int main() {
-    vector<int> nums({12,28,83,4,25,26,25,2,25,25,25,12});
-    int s=213;
-    cout<<Solution::minSubArrayLen(s,nums);
+    vector<int> nums={2, 6, 4, 8, 10, 9, 15};
+    Solution::findUnsortedSubarray(nums);
     return 0;
 }
