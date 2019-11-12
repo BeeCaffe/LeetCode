@@ -5,33 +5,23 @@
 #include <climits>
 
 using namespace std;
-class Solution {
-public:
-    static int findUnsortedSubarray(vector<int>& nums) {
-        int pst=0,pend=nums.size();
-        while(pst<pend){
-            while(pst<pend && ismin(nums,nums[pst],pst+1,pend)) ++pst;
-            while(pst<pend && ismax(nums,nums[pend-1],pst,pend-1)) --pend;
-        }
-        return pend-pst;
-    }
 
-    static bool ismin(vector<int> &nums,int key,int left,int right){
-        for(int i=left;i<right;++i){
-            if(key>nums[i]) return false;
-        }
-        return true;
-    }
-    static bool ismax(vector<int> &nums,int key,int left,int right){
-        for(int i=right-1;i>=left;--i){
-            if(key<nums[i]) return false;
-        }
-        return true;
-    }
-};
+class Solution {
+    public:
+           static     double findMaxAverage(vector<int>& nums, int k) {
+               double sum=0;
+               for(int i=0;i<k;++i) sum+=nums[i];
+               double average=sum/k;
+               for(int i=1;i<nums.size()-k;++i){
+                   sum=sum-nums[i-1]+nums[i+k];
+                   average=max(average,sum/k);
+               }
+               return average;
+           }
+        };
 
 int main() {
-    vector<int> nums={2, 6, 4, 8, 10, 9, 15};
-    Solution::findUnsortedSubarray(nums);
+    vector<int> nums={1,12,-5,-6,50,3};
+    Solution::findMaxAverage(nums,4);
     return 0;
 }
