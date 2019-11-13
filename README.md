@@ -5,7 +5,7 @@
         3.map，set法：p219，p268,P442
         4.位操作：P268
         5.下标法：P414，P442
-        6.dfs,bfs:
+        6.dfs,bfs:p695
         7.模式匹配：p611
         8.sort法：p621
         9.sliding window（滑动窗口）：p643
