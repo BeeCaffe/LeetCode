@@ -3,34 +3,43 @@
 #include <vector>
 #include <algorithm>
 #include <climits>
-
+#include <cmath>
+#include <set>
+#include <unordered_map>
+#include <unordered_set>
+#include <map>
 using namespace std;
-
 class Solution {
 public:
-    static int findShortestSubArray(vector<int>& nums) {
-        if(nums.size()==1) return 1;
-        int maxtimes=0,ans=0,i,j;
-        vector<int> visited(nums.size(),0);
-        for(i=0;i<nums.size()&&!visited[i];++i){
-            for(j=nums.size()-1;j>=i;--j){
-                if(nums[j]==nums[i]) break;
+    static bool cmp(const pair<char,int> &a,const pair<char,int> &b){
+        return a.second>b.second;
+    }
+    static string reorganizeString(string S) {
+        map<char,int> table_map;
+        for(int i=0;i<S.size();++i){
+            if(table_map.find(S[i])==table_map.end()) table_map.insert(pair<char,int>(S[i],1));
+            else table_map.find(S[i])->second++;
+        }
+        vector<pair<char,int>> table(table_map.begin(),table_map.end());
+        sort(table.begin(),table.end(),cmp);
+        string ans;
+        while(table.size()>0){
+            for(int i=0;i<2;++i){
+                if(table[i].second!=0){
+                    ans+=table[i].first;
+                    table[i].second--;
+                }
+                if(table[i].second==0) table.erase(table.begin()+i);
             }
-            int len=j-i+1;
-            int times=0;
-            for(int k=i;k<=j;++k){
-                if(nums[k]==nums[i]){++times;visited[k]=true;}
-            }
-            if(times>maxtimes){ans=len;maxtimes=times;}
-            else if(times==maxtimes){
-                ans=min(len,ans);
-            }
+            int size=table.size();
+            if(table.size()==1&&table.begin()->second>1) return "";
         }
         return ans;
     }
 };
 int main() {
-    vector<int> nums={1,1,2,2,2,1};
-    Solution::findShortestSubArray(nums);
+    vector<vector<int>> board={{4,2}};
+    string str("aab");
+    Solution::reorganizeString(str);
     return 0;
 }

@@ -31,7 +31,7 @@ public:
             for(int i=0,index=1;i<nums.size();i++,index++){
                 //if is duplicated
                 if(i>0&&nums[i]==nums[i-1]){
-                    //if the order is not right, discard this solution
+                    //if the order is not right, discard this 766. Toeplitz Matrix
                     if(mask[i]<mask[i-1]) continue;
                 }
                 if(mask[i]==0){
