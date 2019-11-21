@@ -11,35 +11,30 @@
 using namespace std;
 class Solution {
 public:
-    static bool cmp(const pair<char,int> &a,const pair<char,int> &b){
-        return a.second>b.second;
-    }
-    static string reorganizeString(string S) {
-        map<char,int> table_map;
-        for(int i=0;i<S.size();++i){
-            if(table_map.find(S[i])==table_map.end()) table_map.insert(pair<char,int>(S[i],1));
-            else table_map.find(S[i])->second++;
-        }
-        vector<pair<char,int>> table(table_map.begin(),table_map.end());
-        sort(table.begin(),table.end(),cmp);
-        string ans;
-        while(table.size()>0){
-            for(int i=0;i<2;++i){
-                if(table[i].second!=0){
-                    ans+=table[i].first;
-                    table[i].second--;
-                }
-                if(table[i].second==0) table.erase(table.begin()+i);
-            }
-            int size=table.size();
-            if(table.size()==1&&table.begin()->second>1) return "";
+    static int numMatchingSubseq(string S, vector<string>& words) {
+        int ans=0;
+        for(string word:words){
+            bool tmp=isSubSeq(S,word);
+            if(tmp) ans++;
         }
         return ans;
     }
+    static bool isSubSeq(string &S,string &sub_seq){
+        int idx=0,i;
+        int count=0;
+        for(i=0;i<sub_seq.size();++i){
+            while(idx<S.size()&&S[idx]!=sub_seq[i]) ++idx;
+            char tmp1=S[idx++];
+            char tmp2=sub_seq[i];
+            if(tmp1==tmp2) ++count;
+        }
+        if(i==sub_seq.size()) return true;
+        return false;
+    }
 };
 int main() {
-    vector<vector<int>> board={{4,2}};
-    string str("aab");
-    Solution::reorganizeString(str);
+    vector<string> words={"a", "bb", "acd", "ace"};
+    string S="abcde";
+    Solution::numMatchingSubseq(S,words);
     return 0;
 }
