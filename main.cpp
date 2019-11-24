@@ -11,30 +11,30 @@
 using namespace std;
 class Solution {
 public:
-    static int numMatchingSubseq(string S, vector<string>& words) {
-        int ans=0;
-        for(string word:words){
-            bool tmp=isSubSeq(S,word);
-            if(tmp) ans++;
+    static vector<int> advantageCount(vector<int>& A, vector<int>& B) {
+        vector<int> ans;
+        sort(A.begin(),A.end());
+        for(int i=0;i<B.size();++i){
+            int left=0,right=A.size();
+            while(left<=right){
+                int mid=left+(right-left)/2;
+                if(A[mid]>B[i]) right=mid-1;
+                else left=mid+1;
+            }
+            if(left<A.size()&&A[left]>B[i]) {
+                ans.push_back(A[left]);
+                A.erase(A.begin()+left);
+            }else{
+                ans.push_back(A[0]);
+                A.erase(A.begin());
+            }
         }
         return ans;
     }
-    static bool isSubSeq(string &S,string &sub_seq){
-        int idx=0,i;
-        int count=0;
-        for(i=0;i<sub_seq.size();++i){
-            while(idx<S.size()&&S[idx]!=sub_seq[i]) ++idx;
-            char tmp1=S[idx++];
-            char tmp2=sub_seq[i];
-            if(tmp1==tmp2) ++count;
-        }
-        if(i==sub_seq.size()) return true;
-        return false;
-    }
 };
 int main() {
-    vector<string> words={"a", "bb", "acd", "ace"};
-    string S="abcde";
-    Solution::numMatchingSubseq(S,words);
+    vector<int> nums={0};
+    vector<int> nums1={0};
+    Solution::advantageCount(nums,nums1);
     return 0;
 }
