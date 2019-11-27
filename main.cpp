@@ -11,30 +11,35 @@
 using namespace std;
 class Solution {
 public:
-    static vector<int> advantageCount(vector<int>& A, vector<int>& B) {
+    static vector<int> sortedSquares(vector<int>& A) {
+        if(A.size()==1) return {A[0]*A[0]};
         vector<int> ans;
-        sort(A.begin(),A.end());
-        for(int i=0;i<B.size();++i){
-            int left=0,right=A.size();
-            while(left<=right){
-                int mid=left+(right-left)/2;
-                if(A[mid]>B[i]) right=mid-1;
-                else left=mid+1;
-            }
-            if(left<A.size()&&A[left]>B[i]) {
-                ans.push_back(A[left]);
-                A.erase(A.begin()+left);
-            }else{
-                ans.push_back(A[0]);
-                A.erase(A.begin());
-            }
+        int mid=0;
+        if(A[0]>=0) mid=0;
+        if(A[0]<0){
+            mid=A.size()-1;
+            for(int i=1;i<A.size();++i) if(A[i-1]<0&&A[i]>=0){mid=i;break;}
+        }
+        int left=mid-1,right=mid;
+        if(A[mid]=0) {left=mid-1;right=mid+1;ans.push_back(0);}
+        while(left>=0 || right<A.size()){
+            if(left>=0&&right<A.size()){
+                if(abs(A[left])>abs(A[right])){
+                    ans.push_back(A[right]*A[right]);
+                    ans.push_back(A[left]*A[left]);
+                }else{
+                    ans.push_back(A[left]*A[left]);
+                    ans.push_back(A[right]*A[right]);
+                }
+            }else if(left>=0) ans.push_back(A[left]*A[left]);
+            else if(right<A.size()) ans.push_back(A[right]*A[right]);
+            --left;++right;
         }
         return ans;
     }
 };
 int main() {
-    vector<int> nums={0};
-    vector<int> nums1={0};
-    Solution::advantageCount(nums,nums1);
+    vector<int> nums={-3,0,2};
+    Solution::sortedSquares(nums);
     return 0;
 }
