@@ -11,28 +11,35 @@
 using namespace std;
 class Solution {
 public:
-    static bool canThreePartsEqualSum(vector<int>& A) {
-        vector<int> sum(A.size()+1,0);
-        for(int i=1;i<sum.size();++i){
-            sum[i]=sum[i-1]+A[i-1];
+    static int numEquivDominoPairs(vector<vector<int>>& dominoes) {
+        int ans=0;
+        map<pair<int,int>,int> hashmap;//domain,numbers
+        for(auto domin:dominoes){
+            pair<int,int> pr(domin[0],domin[1]);
+            hashmap[pr]++;
         }
-        int left=1,right;
-        while(left<sum.size()-1){
-            right=left+1;
-            int log=left;
-            int keysum=sum[left];
-            for(;right<sum.size();++right){
-                if(right<A.size()&&A[right]==0) continue;
-                if(sum[right]-sum[log]==keysum) log=right;
+        for(auto elem:hashmap){
+            pair<int,int> domin=elem.first;
+            int numbers=elem.second;
+            ans+=(numbers*(numbers-1))/2;
+            elem.second=0;
+            if(domin.first!=domin.second){
+                pair<int,int> reverse(domin.second,domin.first);
+                if(hashmap.find(reverse)!=hashmap.end()){
+                    ans+=hashmap[reverse]*numbers;
+                    hashmap[reverse]=0;
+                }
             }
-            if(log==sum.size()-1) return true;
-            ++left;
         }
-        return false;
+        return ans;
     }
 };
+
+
 int main() {
-    vector<int> num={30,-23,3,14,-10,4,-6,6,18};
-    Solution::canThreePartsEqualSum(num);
+//    vector<int> num1={8,4,5,0,0,0,0,7};
+//    vector<int> num2={0,1,0,1,0,1,0,1};
+    vector<vector<int>> num={{2,1},{1,2},{1,2},{1,2},{2,1},{1,1},{1,2},{2,2}};
+    Solution::numEquivDominoPairs(num);
     return 0;
 }
