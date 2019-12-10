@@ -1,4 +1,4 @@
-/snap/clion/92/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/caffe/CLionProjects/LeetCode
+/snap/clion/97/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/caffe/CLionProjects/LeetCode
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/caffe/CLionProjects/LeetCode/cmake-build-debug
