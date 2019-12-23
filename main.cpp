@@ -8,25 +8,36 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <map>
+#include <queue>
 using namespace std;
 class Solution {
 public:
-    static int numDecodings(string s) {
-        int n=s.size();
-        if(n<2) return 1;
-        vector<int> dp(n,0);
-        dp[0]==1;
-        if((s[0]-'0')>9) dp[1]=1;
-        else dp[1]=2;
-        for(int i=2;i<n;++i){
-            if((s[i]-'0'>9)) dp[i]=dp[i-1];
-            else dp[i]=dp[i-2]+dp[i-1];
+    static string multiply(string num1, string num2) {
+        int n1=num1.size(),n2=num2.size();
+        string ans(n1+n2,'0');
+        int res=0;
+        for(int i=n1-1;i>=0;--i){
+            res=0;
+            for(int j=n2-1;j>=0;--j){
+                int pre = ans[i+j+1]-'0';
+                int cur = (num1[i]-'0')*(num2[j]-'0')+res+pre;
+                ans[i+j+1] = cur%10+'0';
+                res = cur/10;
+            }
         }
-        return dp[n-1];
+        for(int i=0;i<ans.size();++i){
+            if(ans[i]!='0'){
+                ans = ans.substr(i,ans.size()-i);
+                break;
+            }
+        }
+        return ans;
     }
 };
-int main() {
-    string str="226";
-    Solution::numDecodings(str);
+int main()
+{
+    string  s = "123";
+    string s1="456";
+    Solution::multiply(s,s1);
     return 0;
 }

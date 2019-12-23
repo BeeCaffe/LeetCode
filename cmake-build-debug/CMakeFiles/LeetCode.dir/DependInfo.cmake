@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/LeetCode/dynamic-programming/152. 乘积最大子序列/solution.cpp" "D:/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/dynamic-programming/152._乘积最大子序列/solution.cpp.obj"
   "D:/LeetCode/dynamic-programming/198. 打家劫舍/solution.cpp" "D:/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/dynamic-programming/198._打家劫舍/solution.cpp.obj"
   "D:/LeetCode/dynamic-programming/213. 打家劫舍 II/solution.cpp" "D:/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/dynamic-programming/213._打家劫舍_II/solution.cpp.obj"
+  "D:/LeetCode/dynamic-programming/221. 最大正方形/solution.cpp" "D:/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/dynamic-programming/221._最大正方形/solution.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

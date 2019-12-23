@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LeetCode.dir/dynamic-programming/152._乘积最大子序列/solution.cpp.obj"
   "CMakeFiles/LeetCode.dir/dynamic-programming/198._打家劫舍/solution.cpp.obj"
   "CMakeFiles/LeetCode.dir/dynamic-programming/213._打家劫舍_II/solution.cpp.obj"
+  "CMakeFiles/LeetCode.dir/dynamic-programming/221._最大正方形/solution.cpp.obj"
   "LeetCode.exe"
   "LeetCode.exe.manifest"
   "LeetCode.pdb"

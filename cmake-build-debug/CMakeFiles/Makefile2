@@ -53,40 +53,18 @@ CMAKE_BINARY_DIR = D:\LeetCode\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/main.dir/all
-all: CMakeFiles/LeetCode.dir/all
-all: 0-100/53._Maximum_Subarray/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: 0-100/53._Maximum_Subarray/preinstall
+preinstall:
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main.dir/clean
-clean: CMakeFiles/LeetCode.dir/clean
-clean: 0-100/53._Maximum_Subarray/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory 0-100/53._Maximum_Subarray
-
-# Recursive "all" directory target.
-0-100/53._Maximum_Subarray/all:
-
-.PHONY : 0-100/53._Maximum_Subarray/all
-
-# Recursive "preinstall" directory target.
-0-100/53._Maximum_Subarray/preinstall:
-
-.PHONY : 0-100/53._Maximum_Subarray/preinstall
-
-# Recursive "clean" directory target.
-0-100/53._Maximum_Subarray/clean:
-
-.PHONY : 0-100/53._Maximum_Subarray/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/main.dir
@@ -95,12 +73,12 @@ clean: 0-100/53._Maximum_Subarray/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\LeetCode\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\LeetCode\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LeetCode\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\LeetCode\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -114,33 +92,6 @@ main: CMakeFiles/main.dir/rule
 CMakeFiles/main.dir/clean:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
 .PHONY : CMakeFiles/main.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/LeetCode.dir
-
-# All Build rule for target.
-CMakeFiles/LeetCode.dir/all:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/depend
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\LeetCode\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target LeetCode"
-.PHONY : CMakeFiles/LeetCode.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/LeetCode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\LeetCode\cmake-build-debug\CMakeFiles 6
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/LeetCode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\LeetCode\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/LeetCode.dir/rule
-
-# Convenience name for target.
-LeetCode: CMakeFiles/LeetCode.dir/rule
-
-.PHONY : LeetCode
-
-# clean rule for target.
-CMakeFiles/LeetCode.dir/clean:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/clean
-.PHONY : CMakeFiles/LeetCode.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

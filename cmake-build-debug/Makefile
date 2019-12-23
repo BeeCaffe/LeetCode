@@ -122,153 +122,32 @@ main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-#=============================================================================
-# Target rules for targets named LeetCode
+0~300/专题三：数学/50._Pow(x,_n)/solution.obj: 0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj
 
-# Build rule for target.
-LeetCode: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 LeetCode
-.PHONY : LeetCode
-
-# fast build rule for target.
-LeetCode/fast:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/build
-.PHONY : LeetCode/fast
-
-0-100/94_Binary_Tree_Inorder_Traversal/solution1.obj: 0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.obj
-
-.PHONY : 0-100/94_Binary_Tree_Inorder_Traversal/solution1.obj
+.PHONY : 0~300/专题三：数学/50._Pow(x,_n)/solution.obj
 
 # target to build an object file
-0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.obj:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.obj
-.PHONY : 0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.obj
+0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj
+.PHONY : 0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj
 
-0-100/94_Binary_Tree_Inorder_Traversal/solution1.i: 0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.i
+0~300/专题三：数学/50._Pow(x,_n)/solution.i: 0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.i
 
-.PHONY : 0-100/94_Binary_Tree_Inorder_Traversal/solution1.i
-
-# target to preprocess a source file
-0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.i:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.i
-.PHONY : 0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.i
-
-0-100/94_Binary_Tree_Inorder_Traversal/solution1.s: 0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.s
-
-.PHONY : 0-100/94_Binary_Tree_Inorder_Traversal/solution1.s
-
-# target to generate assembly for a file
-0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.s:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.s
-.PHONY : 0-100/94_Binary_Tree_Inorder_Traversal/solution1.cpp.s
-
-dynamic-programming/139._单词拆分/solution.obj: dynamic-programming/139._单词拆分/solution.cpp.obj
-
-.PHONY : dynamic-programming/139._单词拆分/solution.obj
-
-# target to build an object file
-dynamic-programming/139._单词拆分/solution.cpp.obj:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/dynamic-programming/139._单词拆分/solution.cpp.obj
-.PHONY : dynamic-programming/139._单词拆分/solution.cpp.obj
-
-dynamic-programming/139._单词拆分/solution.i: dynamic-programming/139._单词拆分/solution.cpp.i
-
-.PHONY : dynamic-programming/139._单词拆分/solution.i
+.PHONY : 0~300/专题三：数学/50._Pow(x,_n)/solution.i
 
 # target to preprocess a source file
-dynamic-programming/139._单词拆分/solution.cpp.i:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/dynamic-programming/139._单词拆分/solution.cpp.i
-.PHONY : dynamic-programming/139._单词拆分/solution.cpp.i
+0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.i
+.PHONY : 0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.i
 
-dynamic-programming/139._单词拆分/solution.s: dynamic-programming/139._单词拆分/solution.cpp.s
+0~300/专题三：数学/50._Pow(x,_n)/solution.s: 0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.s
 
-.PHONY : dynamic-programming/139._单词拆分/solution.s
-
-# target to generate assembly for a file
-dynamic-programming/139._单词拆分/solution.cpp.s:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/dynamic-programming/139._单词拆分/solution.cpp.s
-.PHONY : dynamic-programming/139._单词拆分/solution.cpp.s
-
-dynamic-programming/152._乘积最大子序列/solution.obj: dynamic-programming/152._乘积最大子序列/solution.cpp.obj
-
-.PHONY : dynamic-programming/152._乘积最大子序列/solution.obj
-
-# target to build an object file
-dynamic-programming/152._乘积最大子序列/solution.cpp.obj:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/dynamic-programming/152._乘积最大子序列/solution.cpp.obj
-.PHONY : dynamic-programming/152._乘积最大子序列/solution.cpp.obj
-
-dynamic-programming/152._乘积最大子序列/solution.i: dynamic-programming/152._乘积最大子序列/solution.cpp.i
-
-.PHONY : dynamic-programming/152._乘积最大子序列/solution.i
-
-# target to preprocess a source file
-dynamic-programming/152._乘积最大子序列/solution.cpp.i:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/dynamic-programming/152._乘积最大子序列/solution.cpp.i
-.PHONY : dynamic-programming/152._乘积最大子序列/solution.cpp.i
-
-dynamic-programming/152._乘积最大子序列/solution.s: dynamic-programming/152._乘积最大子序列/solution.cpp.s
-
-.PHONY : dynamic-programming/152._乘积最大子序列/solution.s
+.PHONY : 0~300/专题三：数学/50._Pow(x,_n)/solution.s
 
 # target to generate assembly for a file
-dynamic-programming/152._乘积最大子序列/solution.cpp.s:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/dynamic-programming/152._乘积最大子序列/solution.cpp.s
-.PHONY : dynamic-programming/152._乘积最大子序列/solution.cpp.s
-
-dynamic-programming/198._打家劫舍/solution.obj: dynamic-programming/198._打家劫舍/solution.cpp.obj
-
-.PHONY : dynamic-programming/198._打家劫舍/solution.obj
-
-# target to build an object file
-dynamic-programming/198._打家劫舍/solution.cpp.obj:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/dynamic-programming/198._打家劫舍/solution.cpp.obj
-.PHONY : dynamic-programming/198._打家劫舍/solution.cpp.obj
-
-dynamic-programming/198._打家劫舍/solution.i: dynamic-programming/198._打家劫舍/solution.cpp.i
-
-.PHONY : dynamic-programming/198._打家劫舍/solution.i
-
-# target to preprocess a source file
-dynamic-programming/198._打家劫舍/solution.cpp.i:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/dynamic-programming/198._打家劫舍/solution.cpp.i
-.PHONY : dynamic-programming/198._打家劫舍/solution.cpp.i
-
-dynamic-programming/198._打家劫舍/solution.s: dynamic-programming/198._打家劫舍/solution.cpp.s
-
-.PHONY : dynamic-programming/198._打家劫舍/solution.s
-
-# target to generate assembly for a file
-dynamic-programming/198._打家劫舍/solution.cpp.s:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/dynamic-programming/198._打家劫舍/solution.cpp.s
-.PHONY : dynamic-programming/198._打家劫舍/solution.cpp.s
-
-dynamic-programming/213._打家劫舍_II/solution.obj: dynamic-programming/213._打家劫舍_II/solution.cpp.obj
-
-.PHONY : dynamic-programming/213._打家劫舍_II/solution.obj
-
-# target to build an object file
-dynamic-programming/213._打家劫舍_II/solution.cpp.obj:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/dynamic-programming/213._打家劫舍_II/solution.cpp.obj
-.PHONY : dynamic-programming/213._打家劫舍_II/solution.cpp.obj
-
-dynamic-programming/213._打家劫舍_II/solution.i: dynamic-programming/213._打家劫舍_II/solution.cpp.i
-
-.PHONY : dynamic-programming/213._打家劫舍_II/solution.i
-
-# target to preprocess a source file
-dynamic-programming/213._打家劫舍_II/solution.cpp.i:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/dynamic-programming/213._打家劫舍_II/solution.cpp.i
-.PHONY : dynamic-programming/213._打家劫舍_II/solution.cpp.i
-
-dynamic-programming/213._打家劫舍_II/solution.s: dynamic-programming/213._打家劫舍_II/solution.cpp.s
-
-.PHONY : dynamic-programming/213._打家劫舍_II/solution.s
-
-# target to generate assembly for a file
-dynamic-programming/213._打家劫舍_II/solution.cpp.s:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/dynamic-programming/213._打家劫舍_II/solution.cpp.s
-.PHONY : dynamic-programming/213._打家劫舍_II/solution.cpp.s
+0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.s
+.PHONY : 0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -305,23 +184,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... main
-	@echo ... LeetCode
 	@echo ... rebuild_cache
-	@echo ... 0-100/94_Binary_Tree_Inorder_Traversal/solution1.obj
-	@echo ... 0-100/94_Binary_Tree_Inorder_Traversal/solution1.i
-	@echo ... 0-100/94_Binary_Tree_Inorder_Traversal/solution1.s
-	@echo ... dynamic-programming/139._单词拆分/solution.obj
-	@echo ... dynamic-programming/139._单词拆分/solution.i
-	@echo ... dynamic-programming/139._单词拆分/solution.s
-	@echo ... dynamic-programming/152._乘积最大子序列/solution.obj
-	@echo ... dynamic-programming/152._乘积最大子序列/solution.i
-	@echo ... dynamic-programming/152._乘积最大子序列/solution.s
-	@echo ... dynamic-programming/198._打家劫舍/solution.obj
-	@echo ... dynamic-programming/198._打家劫舍/solution.i
-	@echo ... dynamic-programming/198._打家劫舍/solution.s
-	@echo ... dynamic-programming/213._打家劫舍_II/solution.obj
-	@echo ... dynamic-programming/213._打家劫舍_II/solution.i
-	@echo ... dynamic-programming/213._打家劫舍_II/solution.s
+	@echo ... 0~300/专题三：数学/50._Pow(x,_n)/solution.obj
+	@echo ... 0~300/专题三：数学/50._Pow(x,_n)/solution.i
+	@echo ... 0~300/专题三：数学/50._Pow(x,_n)/solution.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

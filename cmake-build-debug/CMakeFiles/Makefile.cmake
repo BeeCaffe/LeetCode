@@ -33,7 +33,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.16/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.16/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/CMake/share/cmake-3.16/Modules/ProcessorCount.cmake"
-  "../0-100/53._Maximum_Subarray/CMakeLists.txt"
   "../CMakeLists.txt"
   "CMakeFiles/3.16.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.1/CMakeCXXCompiler.cmake"
@@ -50,11 +49,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "0-100/53._Maximum_Subarray/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
-  "CMakeFiles/LeetCode.dir/DependInfo.cmake"
   )
