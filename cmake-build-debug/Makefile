@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named debug
+
+# Build rule for target.
+debug: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 debug
+.PHONY : debug
+
+# fast build rule for target.
+debug/fast:
+	$(MAKE) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/build
+.PHONY : debug/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -122,32 +135,35 @@ main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-0~300/专题三：数学/50._Pow(x,_n)/solution.obj: 0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj
+debug.obj: debug.cpp.obj
 
-.PHONY : 0~300/专题三：数学/50._Pow(x,_n)/solution.obj
+.PHONY : debug.obj
 
 # target to build an object file
-0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj
-.PHONY : 0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj
+debug.cpp.obj:
+	$(MAKE) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/debug.cpp.obj
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/debug.cpp.obj
+.PHONY : debug.cpp.obj
 
-0~300/专题三：数学/50._Pow(x,_n)/solution.i: 0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.i
+debug.i: debug.cpp.i
 
-.PHONY : 0~300/专题三：数学/50._Pow(x,_n)/solution.i
+.PHONY : debug.i
 
 # target to preprocess a source file
-0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.i
-.PHONY : 0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.i
+debug.cpp.i:
+	$(MAKE) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/debug.cpp.i
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/debug.cpp.i
+.PHONY : debug.cpp.i
 
-0~300/专题三：数学/50._Pow(x,_n)/solution.s: 0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.s
+debug.s: debug.cpp.s
 
-.PHONY : 0~300/专题三：数学/50._Pow(x,_n)/solution.s
+.PHONY : debug.s
 
 # target to generate assembly for a file
-0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.s
-.PHONY : 0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.s
+debug.cpp.s:
+	$(MAKE) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/debug.cpp.s
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/debug.cpp.s
+.PHONY : debug.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -183,11 +199,12 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... debug
 	@echo ... main
 	@echo ... rebuild_cache
-	@echo ... 0~300/专题三：数学/50._Pow(x,_n)/solution.obj
-	@echo ... 0~300/专题三：数学/50._Pow(x,_n)/solution.i
-	@echo ... 0~300/专题三：数学/50._Pow(x,_n)/solution.s
+	@echo ... debug.obj
+	@echo ... debug.i
+	@echo ... debug.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -52,6 +52,7 @@ CMAKE_BINARY_DIR = D:\LeetCode\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/debug.dir/all
 all: CMakeFiles/main.dir/all
 
 .PHONY : all
@@ -62,9 +63,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/debug.dir/clean
 clean: CMakeFiles/main.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/debug.dir
+
+# All Build rule for target.
+CMakeFiles/debug.dir/all:
+	$(MAKE) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/depend
+	$(MAKE) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\LeetCode\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target debug"
+.PHONY : CMakeFiles/debug.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/debug.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/debug.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/debug.dir/rule
+
+# Convenience name for target.
+debug: CMakeFiles/debug.dir/rule
+
+.PHONY : debug
+
+# clean rule for target.
+CMakeFiles/debug.dir/clean:
+	$(MAKE) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/clean
+.PHONY : CMakeFiles/debug.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/main.dir
@@ -73,7 +102,7 @@ clean: CMakeFiles/main.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\LeetCode\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\LeetCode\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.

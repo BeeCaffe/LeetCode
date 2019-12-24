@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj"
+  "CMakeFiles/main.dir/debug.cpp.obj"
   "CMakeFiles/main.dir/main.cpp.obj"
   "libmain.dll.a"
   "main.exe"

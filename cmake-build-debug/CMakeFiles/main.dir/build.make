@@ -69,29 +69,29 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
 	C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LeetCode\main.cpp -o CMakeFiles\main.dir\main.cpp.s
 
-CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj: ../0~300/专题三：数学/50.\ Pow(x,\ n)/solution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LeetCode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj"
-	C:\MinGw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\0~300\专题三：数学\50._Pow(x,_n)\solution.cpp.obj -c "D:\LeetCode\0~300\专题三：数学\50. Pow(x, n)\solution.cpp"
+CMakeFiles/main.dir/debug.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/debug.cpp.obj: ../debug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LeetCode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/debug.cpp.obj"
+	C:\MinGw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\debug.cpp.obj -c D:\LeetCode\debug.cpp
 
-CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.i"
-	C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\LeetCode\0~300\专题三：数学\50. Pow(x, n)\solution.cpp" > CMakeFiles\main.dir\0~300\专题三：数学\50._Pow(x,_n)\solution.cpp.i
+CMakeFiles/main.dir/debug.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/debug.cpp.i"
+	C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LeetCode\debug.cpp > CMakeFiles\main.dir\debug.cpp.i
 
-CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.s"
-	C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\LeetCode\0~300\专题三：数学\50. Pow(x, n)\solution.cpp" -o CMakeFiles\main.dir\0~300\专题三：数学\50._Pow(x,_n)\solution.cpp.s
+CMakeFiles/main.dir/debug.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/debug.cpp.s"
+	C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LeetCode\debug.cpp -o CMakeFiles\main.dir\debug.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.obj" \
-"CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj"
+"CMakeFiles/main.dir/debug.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/main.cpp.obj
-main.exe: CMakeFiles/main.dir/0~300/专题三：数学/50._Pow(x,_n)/solution.cpp.obj
+main.exe: CMakeFiles/main.dir/debug.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linklibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
